@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+h1 {
+	color: blue;
+	width: 960px;
+	/* text-align: center; */
+}
+
+.shadowfont1 {
+	font-family: sans-serif, serif;
+	font-size: 3em;
+	font-weight: 600;
+	color: #c33;
+	/* how far to left or right the shadow should fall
+	   distance to top or bottom the shadow should fall
+	   amount of blur 
+	*/
+	text-shadow: 4px 4px 4px #000;
+}
+
+.shadowfont2 {
+	font-family: sans-serif, serif;
+	font-size: 2em;
+	font-weight: 400;
+	color: #55d;
+	text-shadow: 1px 1px 1px #000;
+}
