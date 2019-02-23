@@ -31,6 +31,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-websocket'
 	implementation 'org.springframework.data:spring-data-rest-hal-browser'
 	implementation 'org.springframework.session:spring-session-jdbc'
+	runtime('mysql:mysql-connector-java')
 	runtimeOnly 'org.springframework.boot:spring-boot-devtools'
 	runtimeOnly 'com.h2database:h2'
 	runtimeOnly 'org.apache.derby:derby'
