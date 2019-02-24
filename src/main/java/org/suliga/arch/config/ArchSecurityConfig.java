@@ -11,7 +11,7 @@ public class ArchSecurityConfig extends WebSecurityConfigurerAdapter {
 	@Override
 	protected void configure(HttpSecurity hs) throws Exception {
 		hs.authorizeRequests()
-			.antMatchers("/", "/index", "/home", "/maze").permitAll();
+			.antMatchers("/", "/index", "/home", "/maze", "/archgame").permitAll();
 		
 		hs.csrf().disable();
 		
